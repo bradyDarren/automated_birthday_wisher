@@ -23,6 +23,13 @@ for index, person in data.items():
         print(f"{person['name']}, happy birthday !!!!!!!")
 
 # 3. If step 2 is true, pick a random letter from letter templates and replace the [NAME] with the person's actual name from birthdays.csv
-
+def load_birthday_file(file_path):
+    with open (file=file_path, mode='r') as file:
+        return file.read()
+    
 # 4. Send the letter generated in step 3 to that person's email address.
+
+def send_wishes(name, email):
+    pass
+
 
