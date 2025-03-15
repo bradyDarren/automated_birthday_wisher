@@ -2,7 +2,6 @@ import datetime as dt
 import random
 import smtplib
 
-
 MY_EMAIL = "bradydarren056@gmail.com"
 PASSWORD = "ayae lpxi ubzt vhfh"
 
