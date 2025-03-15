@@ -10,7 +10,7 @@ LETTER_LIST = ['letter_1.txt','letter_2.txt','letter_3.txt']
 # 1.1 - Import the csv file using Pandas
 birthdays = pd.read_csv(filepath_or_buffer='birthdays.csv')
 data = birthdays.to_dict(orient='index')
-print(data)
+# print(data)
 
 # 1.2 - Getting the current month and day
 now = dt.datetime.now()
