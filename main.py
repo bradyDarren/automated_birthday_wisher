@@ -47,4 +47,4 @@ def main():
             # print(personalized_letter)
             send_wishes(person['name'], person['email'], personalized_letter)
 
-main()
+# main()
